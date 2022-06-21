@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+#container {
+    background: url("../img/background.jpeg");
+    padding-bottom: 140px;
+}
+
+#botao-entrar {
+    background-color: #e50914;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border: 0;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+}
+
+#cabecalho {
+    padding: 28px 56px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+
+#paragrafo-assista {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+#paragrafo-pronto {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+input {
+    width: 500px;
+    padding-left: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+#botao-email {
+    width: 250px;
+    background-color: #e50914;
+    border: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#botao-email:hover {
+    opacity: 0.6;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 70px;
+}
+
+#rodape {
+    background-color: black;
+    border-top: 10px solid #303030;
+    padding: 70px 0;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#botao-pergunta,
+#botao-pergunta1,
+#botao-pergunta2,
+#botao-pergunta3,
+#botao-pergunta4,
+#botao-pergunta5 {
+    width: 800px;
+    background-color: #303030;
+    height: 70px;
+    border: 0;
+    font-size: 24px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+}
+
+#imagem-pergunta,
+#imagem-pergunta1,
+#imagem-pergunta2,
+#imagem-pergunta3,
+#imagem-pergunta4,
+#imagem-pergunta5 {
+    float: right;
+    margin-top: 8px;
+    transform: rotate(45deg);
+}
+
+#imagem-pergunta-girar {
+    float: right;
+    margin-top: 8px;
+    transform: rotate(90deg);
+}
+
+#pergunta,
+#pergunta1,
+#pergunta2,
+#pergunta3,
+#pergunta4,
+#pergunta5 {
+    width: 800px;
+    background-color: #303030;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3px;
+    padding: 24px;
+    display: none;
+}
+
+.paragrafo-pergunta {
+    font-size: 24px;
+}
+
+@media(max-width: 820px) {
+
+    #botao-pergunta,
+    #botao-pergunta1,
+    #botao-pergunta2,
+    #botao-pergunta3,
+    #botao-pergunta4,
+    #botao-pergunta5,
+    #pergunta,
+    #pergunta1,
+    #pergunta2,
+    #pergunta3,
+    #pergunta4,
+    #pergunta5 {
+        width: 700px;
+    }
+}
+
+@media(max-width: 740px) {
+
+    #botao-pergunta,
+    #botao-pergunta1,
+    #botao-pergunta2,
+    #botao-pergunta3,
+    #botao-pergunta4,
+    #botao-pergunta5,
+    #pergunta,
+    #pergunta1,
+    #pergunta2,
+    #pergunta3,
+    #pergunta4,
+    #pergunta5 {
+        width: 600px;
+    }
+}
+
+@media(max-width: 710px) {
+
+    #botao-pergunta,
+    #botao-pergunta1,
+    #botao-pergunta2,
+    #botao-pergunta3,
+    #botao-pergunta4,
+    #botao-pergunta5,
+    #pergunta,
+    #pergunta1,
+    #pergunta2,
+    #pergunta3,
+    #pergunta4,
+    #pergunta5 {
+        width: 400px;
+    }
+}
+
+@media(max-width: 770px) {
+
+    h1 {
+        width: 470px;
+        flex-wrap: wrap;
+    }
+
+    #paragrafo-assista,
+    #paragrafo-pronto {
+        width: 450px;
+        margin: 10px auto;
+    }
+
+    #formulario {
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 625px) {
+    #formulario {
+        display: block;
+    }
+
+    #formulario input {
+        width: 500px;
+        height: 60px;
+        margin-left: 45px;
+        margin-bottom: 20px;
+    }
+
+    #formulario #botao-email {
+        margin-left: 160px;
+        height: 60px;
+    }
+
+    #container-geral {
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 600px) {
+
+    h1,
+    #paragrafo-assista,
+    #paragrafo-pronto {
+        width: 300px;
+    }
+
+    #formulario {
+        display: block;
+        width: 480px;
+    }
+
+    #formulario input {
+        width: 400px;
+        height: 60px;
+        margin-left: 45px;
+        margin-bottom: 20px;
+    }
+
+    #formulario #botao-email {
+        margin-left: 120px;
+        height: 60px;
+    }
+
+    #botao-pergunta,
+    #botao-pergunta1,
+    #botao-pergunta2,
+    #botao-pergunta3,
+    #botao-pergunta4,
+    #botao-pergunta5,
+    #pergunta,
+    #pergunta1,
+    #pergunta2,
+    #pergunta3,
+    #pergunta4,
+    #pergunta5 {
+        width: 300px;
+        margin: 10px auto;
+    }
+}
